@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String & Math Functions</title>
+</head>
+<body>
+
+<h1>JavaScript String & Math Object Functions Examples</h1>
+
+<h2>String Object Functions</h2>
+<script>
+    // 1. length (Property, not function)
+    let str = "Hello, World!";
+    document.write("<pre>1. length (Property, not function)\n");
+    document.write("let str = 'Hello, World!';\n");
+    document.write("Length: " + str.length + "\n");
+    document.write("</pre>");
+
+    // 2. toUpperCase()
+    let str2 = "Hello, World!";
+    document.write("<pre>2. toUpperCase()\n");
+    document.write("let str2 = 'Hello, World!';\n");
+    document.write("Uppercase: " + str2.toUpperCase() + "\n");
+    document.write("</pre>");
+
+    // 3. indexOf(searchValue[, fromIndex])
+    let str3 = "Hello, World!";
+    document.write("<pre>3. indexOf(searchValue[, fromIndex])\n");
+    document.write("let str3 = 'Hello, World!';\n");
+    document.write("Index of 'World': " + str3.indexOf("World") + "\n");
+    document.write("</pre>");
+
+    // 4. slice(start[, end])
+    let str4 = "Hello, World!";
+    document.write("<pre>4. slice(start[, end])\n");
+    document.write("let str4 = 'Hello, World!';\n");
+    document.write("Sliced (7,12): " + str4.slice(7, 12) + "\n");
+    document.write("</pre>");
+</script>
+
+<h2>Math Object Functions
